@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42c417af-5914-462e-b4a2-8f7ef46556d5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/dto/UsersDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/entity/Carriage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/entity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/entity/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/entity/enums/CarriageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/entity/enums/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/java/org/alex/railway/tickets/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/resources/public/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/resources/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/resources/public/js/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/resources/public/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/resources/public/js/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/resources/public/users/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/resources/public/users/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTickets/src/main/webapp/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/config/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/StationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/TrainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/StationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/TicketDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/TrainDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/UsersDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/Carriage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/enums/CarriageType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/enums/RoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/repository/StationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/repository/TrainRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/StationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/TrainService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/adminPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/js/Bambi_Bold_400.font.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/js/Gentium_Basic.font.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/js/cufon-yui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/stations.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ticket.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/tickets.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/timetable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/train.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/trainsPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/timetable.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/users.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTicketsServlets/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTicketsServlets/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTicketsServlets/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTicketsServlets/src/main/java/ua/od/alex/filter/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTicketsServlets/src/main/java/ua/od/alex/listener/SessionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTicketsServlets/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RailwayTicketsServlets/src/main/webapp/WEB-INF/register.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="32" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StationController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/StationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timetable.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/timetable.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/TicketDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/train.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/repository/TicketRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="12" column="81" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/TicketController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tickets.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/tickets.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TicketService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/TicketService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>header</find>
+      <find>login</find>
+      <find>remove</find>
+      <find>removeAll</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../Task1/kunjtuxl-task1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../kunjtuxl-task2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../kunjtuxl-task3" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../kunjtuxl-task4" value="PREVIEW" />
+        <entry key="$USER_HOME$/kunjtuxl-task1" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/Application.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/enums/RoleType.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/config/WebConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index2.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/example.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/loginPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/users.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/stations.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/StationController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/trains.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/adminPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/TrainDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/trainsPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/repository/TrainRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/Station.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/Train.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/StationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/TrainService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/Ticket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/StationDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/TicketDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/timetable.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/TrainController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/train.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ticket.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/TicketController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/tickets.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/repository/TicketRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/TicketService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="RailwayTickets Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tickets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tickets" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tickets" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tickets" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tickets" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tickets" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tickets" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RailwayTickets3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.security:spring-security-core:5.1.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-security-core-5.1.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-beans:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-beans-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="stereotype" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RailwayTickets3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:5.1.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-5.1.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="bind" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="RequestBody" type="1a9f42e2:ClassTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Azure (Microsoft)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ChatServerDemo" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\webapp\WEB-INF\view" />
+      <recent name="C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\webapp" />
+      <recent name="C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\webapp\resources" />
+      <recent name="C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src" />
+      <recent name="C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.alex.railway.tickets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\webapp\WEB-INF\view\user" />
+      <recent name="C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main" />
+      <recent name="C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\webapp\WEB-INF\toremove" />
+      <recent name="C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\webapp\WEB-INF\view" />
+      <recent name="C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method>
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42c417af-5914-462e-b4a2-8f7ef46556d5" name="Default" comment="" />
+      <created>1611335029821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611335029821</updated>
+      <workItem from="1611335033967" duration="1470000" />
+      <workItem from="1611346567063" duration="709000" />
+      <workItem from="1611395803456" duration="12233000" />
+      <workItem from="1611500628022" duration="1120000" />
+      <workItem from="1611512724597" duration="28389000" />
+      <workItem from="1611568092200" duration="13417000" />
+      <workItem from="1611611764760" duration="6115000" />
+      <workItem from="1611657086103" duration="1751000" />
+      <workItem from="1611676588853" duration="5063000" />
+      <workItem from="1611699032769" duration="398000" />
+      <workItem from="1611759337225" duration="586000" />
+      <workItem from="1611779929888" duration="592000" />
+      <workItem from="1611790649176" duration="2024000" />
+      <workItem from="1611852592174" duration="589000" />
+      <workItem from="1611871135806" duration="2606000" />
+      <workItem from="1611924511856" duration="594000" />
+      <workItem from="1611951696813" duration="1183000" />
+      <workItem from="1612026368091" duration="587000" />
+      <workItem from="1612049144198" duration="1452000" />
+      <workItem from="1612205352638" duration="563000" />
+      <workItem from="1612218034914" duration="7042000" />
+      <workItem from="1612369634640" duration="583000" />
+      <workItem from="1612440323523" duration="1779000" />
+      <workItem from="1612521304966" duration="341000" />
+      <workItem from="1612535713520" duration="594000" />
+      <workItem from="1612638679376" duration="2412000" />
+      <workItem from="1612814813540" duration="564000" />
+      <workItem from="1612826035583" duration="587000" />
+      <workItem from="1612847827345" duration="1449000" />
+      <workItem from="1612874714897" duration="565000" />
+      <workItem from="1612914523407" duration="590000" />
+      <workItem from="1612985438818" duration="1183000" />
+      <workItem from="1613140933809" duration="592000" />
+      <workItem from="1613149610471" duration="311000" />
+      <workItem from="1613240566241" duration="14337000" />
+      <workItem from="1613328955570" duration="14776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="129146000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.55274487" side_tool="true" visible="true" weight="0.3295583" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32963374" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.46770722" weight="0.3295583" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" sideWeight="0.49946696" weight="0.32963374" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4472551" visible="true" weight="0.3295583" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32963374" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6875" visible="true" weight="0.27125943" />
+      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info id="Web" order="2" sideWeight="0.3125" side_tool="true" visible="true" weight="0.27125943" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" sideWeight="0.49946696" weight="0.32963374" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/cufon-yui.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Bambi_Bold_400.font.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/js/cufon-yui.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/utils.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/core/Authentication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/loginPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/example.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.8.RELEASE/spring-beans-5.1.8.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/stereotype/Service.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/org.alex.railway:RailwayTickets:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>org.alex.railway:RailwayTickets:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">org.alex.railway:RailwayTickets:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.1.6.RELEASE/org.aspectj:aspectjweaver:jar:1.9.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/javax.transaction:javax.transaction-api:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/javax.xml.bind:jaxb-api:jar:2.3.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/javax.xml.bind:jaxb-api:jar:2.3.1/javax.activation:javax.activation-api:jar:1.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.hibernate:hibernate-core:jar:5.3.10.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.hibernate:hibernate-core:jar:5.3.10.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.hibernate:hibernate-core:jar:5.3.10.Final/javax.persistence:javax.persistence-api:jar:2.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.hibernate:hibernate-core:jar:5.3.10.Final/org.javassist:javassist:jar:3.23.2-GA</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.hibernate:hibernate-core:jar:5.3.10.Final/net.bytebuddy:byte-buddy:jar:1.9.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.hibernate:hibernate-core:jar:5.3.10.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.hibernate:hibernate-core:jar:5.3.10.Final/org.jboss:jandex:jar:2.0.5.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.hibernate:hibernate-core:jar:5.3.10.Final/com.fasterxml:classmate:jar:1.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.hibernate:hibernate-core:jar:5.3.10.Final/org.dom4j:dom4j:jar:2.1.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.hibernate:hibernate-core:jar:5.3.10.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.4.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.springframework.data:spring-data-jpa:jar:2.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.springframework.data:spring-data-jpa:jar:2.1.9.RELEASE/org.springframework.data:spring-data-commons:jar:2.1.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.springframework.data:spring-data-jpa:jar:2.1.9.RELEASE/org.springframework:spring-orm:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.springframework.data:spring-data-jpa:jar:2.1.9.RELEASE/org.springframework:spring-tx:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.springframework.data:spring-data-jpa:jar:2.1.9.RELEASE/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.1.6.RELEASE/org.springframework:spring-aspects:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/com.zaxxer:HikariCP:jar:3.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-jdbc:jar:2.1.6.RELEASE/org.springframework:spring-jdbc:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.9/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.9/com.fasterxml.jackson.core:jackson-core:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework:spring-web:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework:spring-webmvc:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-security:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-security:jar:2.1.6.RELEASE/org.springframework:spring-aop:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-security:jar:2.1.6.RELEASE/org.springframework.security:spring-security-config:jar:5.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-security:jar:2.1.6.RELEASE/org.springframework.security:spring-security-web:jar:5.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.2.0.RELEASE/org.springframework.security:spring-security-acl:jar:5.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.2.0.RELEASE/org.springframework.security:spring-security-core:jar:5.1.5.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.2.0.RELEASE/org.springframework:spring-beans:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.2.0.RELEASE/org.springframework:spring-context:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.2.0.RELEASE/org.springframework:spring-core:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.2.0.RELEASE/org.springframework:spring-core:jar:5.1.8.RELEASE/org.springframework:spring-jcl:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.2.0.RELEASE/org.springframework:spring-expression:jar:5.1.8.RELEASE</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:8.0.16</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.projectlombok:lombok:jar:1.18.8</node>
+            <node x="" y="">javax.servlet.jsp.jstl:javax.servlet.jsp.jstl-api:jar:1.2.2</node>
+            <node x="" y="">taglibs:standard:jar:1.1.2</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.21</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.21/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.21</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.21/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.21/org.apache.tomcat:tomcat-annotations-api:jar:9.0.21</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.21/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.21</node>
+            <node x="" y="">org.apache.tomcat.embed:tomcat-embed-jasper:jar:9.0.21/org.eclipse.jdt:ecj:jar:3.16.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.assertj:assertj-core:jar:3.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy-agent:jar:1.9.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework:spring-test:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.2</node>
+            <node x="" y="">net.sourceforge.cssparser:cssparser:jar:0.9.27</node>
+            <node x="" y="">net.sourceforge.cssparser:cssparser:jar:0.9.27/org.w3c.css:sac:jar:1.3</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9218290009395552" x="2497.0" y="581.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/repository/StationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/adminPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="69" column="81" selection-start-line="69" selection-start-column="81" selection-end-line="69" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/TrainDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/Train.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="91" selection-start-line="91" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/StationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="26" column="110" selection-start-line="26" selection-start-column="110" selection-end-line="26" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/TrainService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/repository/TrainRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="87" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="95" lean-forward="true" selection-start-line="35" selection-start-column="95" selection-end-line="35" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/user/timetable.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/StationDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="9" selection-start-line="6" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="507" column="22" selection-start-line="507" selection-start-column="22" selection-end-line="507" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/UsersDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="343" column="65" selection-start-line="343" selection-start-column="56" selection-end-line="343" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/trainsPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="129" column="41" selection-start-line="129" selection-start-column="41" selection-end-line="129" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/entity/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/TrainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="106" column="34" selection-start-line="106" selection-start-column="34" selection-end-line="106" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="66" column="94" selection-start-line="66" selection-start-column="94" selection-end-line="66" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/timetable.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="79" column="54" selection-start-line="79" selection-start-column="54" selection-end-line="79" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/StationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="32" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/stations.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="76" column="24" selection-start-line="73" selection-start-column="16" selection-end-line="76" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/dto/TicketDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/bind/annotation/RequestBody.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/ticket.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/train.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/controller/TicketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/tickets.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/repository/TicketRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="81" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/service/TicketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="59" column="64" selection-start-line="59" selection-start-column="64" selection-end-line="59" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/img" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/org/alex/railway/tickets/Application.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/img" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/reset.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/stylesheet.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/css/typography.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/img" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/toremove" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/toremove/example.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/toremove/full-width.html" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/toremove/index.html" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/toremove/layout" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/header-bg.jpg" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/img" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index2.html" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/img" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/reset.css" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources/img" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/typography.css" charset="windows-1251" />
+  </component>
+</project>
