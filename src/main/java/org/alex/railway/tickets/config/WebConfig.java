@@ -1,5 +1,8 @@
 package org.alex.railway.tickets.config;
 
+import org.alex.railway.tickets.security.UserDetailsServiceImpl;
+import org.alex.railway.tickets.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -17,6 +20,16 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableTransactionManagement
 @ComponentScan(basePackages = "org.alex.railway.tickets")
 public class WebConfig implements WebMvcConfigurer {
+
+    private UserService userService;
+
+    public WebConfig() {
+    }
+
+    @Autowired
+    public WebConfig(UserService userService) {
+        this.userService = userService;
+    }
 
     @Bean
     public InternalResourceViewResolver viewResolver() {
@@ -41,6 +54,11 @@ public class WebConfig implements WebMvcConfigurer {
 
         registry.addResourceHandler("/images/**").addResourceLocations("/images/");
 
+    }
+
+    @Bean
+    public UserDetailsServiceImpl getUserDetailsService() {
+        return new UserDetailsServiceImpl(userService);
     }
 
     @Override

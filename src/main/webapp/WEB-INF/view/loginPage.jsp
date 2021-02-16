@@ -37,17 +37,17 @@
 
     <div id="nav-bar" align="center">
         <ul id="nav1">
-            <li><a href="<c:url value="/index"/>">Home</a></li>
-            <li><a href="<c:url value="/timetable"/>">Search trains</a></li>
+            <li><a href="<c:url value="/index"/>"><spring:message code="menu.home" text="default"/></a></li>
+            <li><a href="<c:url value="/timetable"/>"><spring:message code="menu.search" text="default"/></a></li>
             <c:choose>
                 <c:when test="${currentUser.id == 0}">
-                    <li><a href="<c:url value="/loginPage"/>">Log in</a></li>
+                    <li><a href="<c:url value="/loginPage"/>"><spring:message code="menu.login" text="default"/></a></li>
                 </c:when>
                 <c:otherwise>
-                    <li><a href="<c:url value="/user/${currentUser.id}"/>">My profile</a></li>
-                    <li><a href="<c:url value="/tickets/${currentUser.id}"/>">My tickets</a></li>
+                    <li><a href="<c:url value="/user/${currentUser.id}"/>"><spring:message code="menu.myprofile" text="default"/></a></li>
+                    <li><a href="<c:url value="/tickets/${currentUser.id}"/>"><spring:message code="menu.mytickets" text="default"/></a></li>
                     <%--<li><a href="<c:url value="/booking"/>">Book tickets</a></li>--%>
-                    <li><a href="<c:url value="/logout"/>">Log out</a></li>
+                    <li><a href="<c:url value="/logout"/>"><spring:message code="menu.logout" text="default"/></a></li>
                 </c:otherwise>
             </c:choose>
             <li><a href="#">Contact</a></li>
@@ -63,12 +63,12 @@
         <div id="content-1">
             <div class="featured">
 
-<h4>Input your e-mail and password:</h4><br>
-
+<%--<h4>Input your e-mail and password:</h4><br>--%>
+              <b><spring:message code="login.inputMessage" text="default"/></b>
 <form:form method="post" action="/login" modelAttribute="logUserDTO">
 
-    <label>E-mail:</label><form:input path="email" />
-    <label>Password:</label><form:password path="password" />
+    <label><spring:message code="login.email" text="default"/></label><form:input path="email" />
+    <label><spring:message code="login.password" text="default"/></label><form:password path="password" />
 
     <input type="submit" value="Log in!"/>
 
@@ -76,7 +76,7 @@
     <%--<h3>or <a href="/register">register</a></h3>--%>
 </form:form>
                 <br>
-<form:form method="get" action="/register" modelAttribute="currentUser"><input type="submit" value="or click here to register"/>
+<form:form method="get" action="/register" modelAttribute="currentUser"><input type="submit" value="<spring:message code="login.orRegister" text="default"/>"/>
                 </form:form>
 
             </div>

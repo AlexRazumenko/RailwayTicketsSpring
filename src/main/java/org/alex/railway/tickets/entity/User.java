@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 @Entity
 @Table(name="users",
         uniqueConstraints={@UniqueConstraint(columnNames={"email"})})
-public class User implements UserDetails {
+public class User {//implements UserDetails
 
     @Id
     @GeneratedValue (strategy = GenerationType.SEQUENCE)
@@ -48,35 +48,35 @@ public class User implements UserDetails {
     @OneToMany (fetch = FetchType.LAZY, mappedBy = "user", targetEntity = Ticket.class)
     private List<Ticket> tickets;
 
-    @Override
-    public Collection<? extends GrantedAuthority> getAuthorities() {
-        return Arrays.stream(RoleType.values()).collect(Collectors.toSet());
-    }
-
-    @Override
-    public String getUsername() {
-        return email;
-    }
-
-    @Override
-    public boolean isAccountNonExpired() {
-        return true;
-    }
-
-    @Override
-    public boolean isAccountNonLocked() {
-        return true;
-    }
-
-    @Override
-    public boolean isCredentialsNonExpired() {
-        return true;
-    }
-
-    @Override
-    public boolean isEnabled() {
-        return true;
-    }
+//    @Override
+//    public Collection<? extends GrantedAuthority> getAuthorities() {
+//        return Arrays.stream(RoleType.values()).collect(Collectors.toSet());
+//    }
+//
+//    @Override
+//    public String getUsername() {
+//        return email;
+//    }
+//
+//    @Override
+//    public boolean isAccountNonExpired() {
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean isAccountNonLocked() {
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean isCredentialsNonExpired() {
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean isEnabled() {
+//        return true;
+//    }
 
     @Override
     public String toString() {

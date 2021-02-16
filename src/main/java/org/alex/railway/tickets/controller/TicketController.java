@@ -48,17 +48,12 @@ SINGLETRAINPAGEVIEW.addObject("freeSeats", ticketService.findFreeSeatsByTrainAnd
         SINGLETRAINPAGEVIEW.addObject("train", train);
         SINGLETRAINPAGEVIEW.addObject("newTicket", new Ticket());
         SINGLETRAINPAGEVIEW.addObject("departDate", departDate);
-//        SINGLETRAINPAGEVIEW.addObject("newTicket", new Ticket());
         return SINGLETRAINPAGEVIEW;
     }
 
 @PostMapping("/bookTicket")
-    public ModelAndView bookTicket
-//        (@RequestBody Ticket newTicket) {
-        (@RequestParam("train") Train train, @RequestParam("departDate") Date departDate,
+    public ModelAndView bookTicket (@RequestParam("train") Train train, @RequestParam("departDate") Date departDate,
                                    @RequestParam ("place") int seat , @ModelAttribute("currentUser") User user) {
-//    System.out.println("Seat: " + seat + seat.getClass().getSimpleName());
-
   Ticket newTicket = Ticket.builder().train(train).departDate(departDate.toLocalDate())
           .user(user).place(seat).occupied(true).build();
     System.out.println(newTicket);

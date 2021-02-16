@@ -1,5 +1,6 @@
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\dto\TicketDTO.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\dto\TrainDTO.java
+C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\security\UserDetailsServiceImpl.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\config\WebSecurityConfig.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\controller\TicketController.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\entity\User.java
@@ -11,6 +12,7 @@ C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\t
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\Application.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\repository\TicketRepository.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\controller\LoginController.java
+C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\config\LocaleConfig.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\entity\Station.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\repository\StationRepository.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\entity\Carriage.java
@@ -25,6 +27,7 @@ C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\t
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\dto\UsersDTO.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\config\AppInitializer.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\entity\Ticket.java
+C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\util\PropertiesUtil.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\dto\UserDTO.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\config\AppConfig.java
 C:\Users\Alex\IdeaProjects\EPAM\RailwayTickets3\src\main\java\org\alex\railway\tickets\controller\TrainController.java

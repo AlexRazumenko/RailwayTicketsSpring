@@ -12,12 +12,15 @@ org\alex\railway\tickets\dto\UsersDTO$UsersDTOBuilder.class
 org\alex\railway\tickets\service\StationService.class
 org\alex\railway\tickets\entity\Ticket$TicketBuilder.class
 org\alex\railway\tickets\entity\Station.class
+org\alex\railway\tickets\util\PropertiesUtil.class
+org\alex\railway\tickets\security\UserDetailsServiceImpl.class
 org\alex\railway\tickets\dto\TrainDTO.class
 org\alex\railway\tickets\entity\Ticket.class
 org\alex\railway\tickets\config\AppInitializer.class
 org\alex\railway\tickets\controller\TicketController.class
 org\alex\railway\tickets\repository\TicketRepository.class
 org\alex\railway\tickets\entity\Carriage.class
+org\alex\railway\tickets\config\LocaleConfig.class
 org\alex\railway\tickets\controller\UserController.class
 org\alex\railway\tickets\dto\UserDTO$UserDTOBuilder.class
 org\alex\railway\tickets\repository\UserRepository.class

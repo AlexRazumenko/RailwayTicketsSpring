@@ -20,10 +20,8 @@ import org.springframework.web.servlet.ModelAndView;
 @SessionAttributes("currentUser")
 public class TrainController {
 
-    @Autowired
     private TrainService trainService;
 
-    @Autowired
     private StationService stationService;
 
     private final ModelAndView TRAINPAGEVIEW = new ModelAndView();
@@ -31,12 +29,11 @@ public class TrainController {
     private final ModelAndView SINGLETRAINPAGEVIEW = new ModelAndView("train");
     private final User GUEST = User.builder().id(0L).firstName("Guest").role(RoleType.ROLE_GUEST).build();
 
-//@Autowired
-//    public TrainController(TrainService trainService) {//, StationService stationService
-//        this.trainService = trainService;
-////        this.stationService = stationService;
-//        initTrainsPageView();
-//    }
+    @Autowired
+    public TrainController(TrainService trainService, StationService stationService) {
+        this.trainService = trainService;
+        this.stationService = stationService;
+    }
 
     @ModelAttribute("currentUser")
     public User createUser() {
@@ -65,7 +62,6 @@ public class TrainController {
 
     @RequestMapping(value = "/admin/addTrain", method = RequestMethod.POST)
     public String addTrain (@ModelAttribute("newTrain") TrainDTO newTrain) {
-//    ModelAndView modelAndView = new ModelAndView("trainsPage");
         System.out.println(newTrain);
         trainService.save(newTrain);
         TRAINPAGEVIEW.addObject("allTrains", trainService.getAll());
@@ -74,7 +70,6 @@ public class TrainController {
 
     @GetMapping("/timetable")
     public ModelAndView viewTimetablePage(@ModelAttribute("currentUser")User currentUser) {
-        System.out.println("In controller");
         if (currentUser.getRole() != RoleType.ROLE_USER)
             return new ModelAndView("index");
         TIMETABLEPAGEVIEW.setViewName("timetable");
@@ -104,7 +99,6 @@ public class TrainController {
     @GetMapping("/trainPage")
     public ModelAndView viewTrainPage (@ModelAttribute("train") Train train) {
         SINGLETRAINPAGEVIEW.setViewName("train");
-        System.out.println(train);
         SINGLETRAINPAGEVIEW.addObject("train", train);
         SINGLETRAINPAGEVIEW.addObject("newTicket", new Ticket());
         return SINGLETRAINPAGEVIEW;

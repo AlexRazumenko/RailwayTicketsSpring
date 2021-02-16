@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 //@Slf4j
 @Service
-public class UserService implements UserDetailsService {
+public class UserService {//implements UserDetailsService
 
     private static Logger logger = LoggerFactory.getLogger(UserService.class);
     private final UserRepository repository;
@@ -54,8 +54,8 @@ public class UserService implements UserDetailsService {
                 .orElseThrow(() -> new IllegalArgumentException("User with id " + id + " is not exists"));
     }
 
-    @Override
-    public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
+//    @Override
+    public User findUserByEmail(String s) throws UsernameNotFoundException { //Details
         return repository.findByEmail(s)
                 .orElseThrow(() -> new UsernameNotFoundException("User with email " + s + " is not exists"));
     }

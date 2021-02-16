@@ -45,19 +45,21 @@ Licence URI: https://www.os-templates.com/template-terms
 
     <div id="nav-bar" align="center">
         <ul id="nav1">
-            <li><a href="<c:url value="/index"/>">Home</a></li>
-            <li><a href="<c:url value="/timetable"/>">Search trains</a></li>
+            <li><a href="<c:url value="/index"/>"><spring:message code="menu.home" text="default"/></a></li>
+            <li><a href="<c:url value="/timetable"/>"><spring:message code="menu.search" text="default"/></a></li>
             <c:choose>
                 <c:when test="${currentUser.id == 0}">
-                    <li><a href="<c:url value="/loginPage"/>">Log in</a></li>
+                    <li><a href="<c:url value="/loginPage"/>"><spring:message code="menu.login" text="default"/></a></li>
                 </c:when>
                 <c:otherwise>
-                    <li><a href="<c:url value="/user/${currentUser.id}"/>">My profile</a></li>
-                    <li><a href="<c:url value="/tickets"/>">My tickets</a></li>
+                    <li><a href="<c:url value="/user/${currentUser.id}"/>"><spring:message code="menu.myprofile" text="default"/></a></li>
+                    <li><a href="<c:url value="/tickets"/>"><spring:message code="menu.mytickets" text="default"/></a></li>
                     <%--<li><a href="<c:url value="/booking"/>">Book tickets</a></li>--%>
-                    <li><a href="<c:url value="/logout"/>">Log out</a></li>
+                    <li><a href="<c:url value="/logout"/>"><spring:message code="menu.logout" text="default"/></a></li>
                 </c:otherwise>
             </c:choose>
+            <li><a href="<c:url value="/index?lang=ua"/>">УКР</a></li>
+            <li><a href="<c:url value="/index?lang=en"/>">ENG</a></li>
 <%--<sec:authorize access="hasRole('ROLE_ADMIN')" url="/admin/adminPage" var="Admin page" >--%>
             <%--<c:set var="adminRole" scope="session" value="ROLE_ADMIN"/>--%>
     <%--<c:if test="${currentUser.role.name() == adminRole">--%>
@@ -76,8 +78,9 @@ Licence URI: https://www.os-templates.com/template-terms
         <div id="content-1">
             <div class="featured">
                 <%--<h3><a href="#">Keeping Photography In Perspective When Traveling</a></h3>--%>
-
-                <h3 align="center"> <c:out value="Welcome, ${currentUser.firstName} ${currentUser.lastName}!"/></h3>
+                    <%--<h3 align="center"></h3>--%>
+                    <b><spring:message code="index.welcomeCaption" text="default"/>
+                    <c:out value=" ${currentUser.firstName} ${currentUser.lastName}!"/></b>
                 <%--<img class="featured-img" src="img/featured-img.png" alt=""/><br><br><br>--%>
 
                     <%--<p>Here you can find trains timetables to plan you trip. Please log in to book a ticket.</p>--%>
@@ -85,24 +88,33 @@ Licence URI: https://www.os-templates.com/template-terms
                     <c:set var="adminRole" scope="session" value="ROLE_ADMIN"/>
                     <c:if test="${currentUser.role.name() == adminRole}">
                         <p>
-                            You logged as admin. Click on link to access <a href="<c:url value="/admin/adminPage"/>">Admin page</a><br>
+                            <spring:message code="index.welcomeAdmin" text="default"/>
+                            <a href="<c:url value="/admin/adminPage"/>"><spring:message code="index.welcomeAdmin2" text="default"/></a><br>
                         </p>
                     </c:if>
                     <c:if test="${currentUser.role.name() ne adminRole}">
-                        <p>Here you can find trains timetables to plan you trip. Please log in to book a ticket.</p>
-                    </c:if>
+                        <p><spring:message code="index.welcomeUser" text="default"/></p>
+                    </c:if><br>
+                    <h3 align="center"></h3>
+                    <%--<font size="18">--%>
 
-                    <h3 align="center"> <c:out value="General information"/></h3>
+                    <b><spring:message code="index.generalCapture" text="default"/></b>
+                    <%--</font>--%>
+                    <br><br>
+
+
                     <div style="text-align: justify">
-
-                    <p>Ukraine has a developed railway network, its total working mileage amounts to over 22 000 kilometers.
-                        Two third of Ukrainian railway lines are heavy worked, equipped with modern management facilities, dispatcher's centralization and automatic block system.</p>
-                    <p> Ukrainian railway directly borders and cooperates with railways of Russia, Byelorussia, Moldova, Poland, Romania, Slovakia, Hungary and ensures
-                        the work with 40 international railway cross-walks, and also serves 18 Ukrainian seaports of the Black Sea and Sea of Azov basin.</p>
-                    <p> The administration of public railway transport is The State Administration of Railway Transport of Ukraine "Ukrzaliznytsia", which was established in december 1991.
-                        The management sphere of Ukrzaliznytsia covers the railways of Donetsk, Lviv, Odessa, Pivdenna (Southern), Pivdenno-Zakhidna (Southwestern) and Pridniprovska Railways,
-                        and also other enterprises and organizations of integrated industrial-engineering complex, that enables freight and passengers transportation.</p>
-                    <p>Ukrzaliznytsia accomplishes centralized management of the transportation process in inland and interstate communication regulates railway industrial and economic activity.</p>
+                        <p>
+                        <spring:message code="index.general" text="default"/>
+                        </p>
+                    <%--<p>Ukraine has a developed railway network, its total working mileage amounts to over 22 000 kilometers.--%>
+                        <%--Two third of Ukrainian railway lines are heavy worked, equipped with modern management facilities, dispatcher's centralization and automatic block system.</p>--%>
+                    <%--<p> Ukrainian railway directly borders and cooperates with railways of Russia, Byelorussia, Moldova, Poland, Romania, Slovakia, Hungary and ensures--%>
+                        <%--the work with 40 international railway cross-walks, and also serves 18 Ukrainian seaports of the Black Sea and Sea of Azov basin.</p>--%>
+                    <%--<p> The administration of public railway transport is The State Administration of Railway Transport of Ukraine "Ukrzaliznytsia", which was established in december 1991.--%>
+                        <%--The management sphere of Ukrzaliznytsia covers the railways of Donetsk, Lviv, Odessa, Pivdenna (Southern), Pivdenno-Zakhidna (Southwestern) and Pridniprovska Railways,--%>
+                        <%--and also other enterprises and organizations of integrated industrial-engineering complex, that enables freight and passengers transportation.</p>--%>
+                    <%--<p>Ukrzaliznytsia accomplishes centralized management of the transportation process in inland and interstate communication regulates railway industrial and economic activity.</p>--%>
                     </div>
 
 

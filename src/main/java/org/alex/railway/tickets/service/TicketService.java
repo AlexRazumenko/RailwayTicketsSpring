@@ -32,14 +32,6 @@ public class TicketService {
         return repository.findByUserOrderByDepartDateDesc(user);
     }
 
-//    public void addTicketsByTrainAndDate (Train train, LocalDate date, int count) {
-//        Ticket templateTicket = Ticket.
-//        for (int i = 1; i <= count ; i++) {
-//
-//        }
-//
-//    }
-
     public List<Ticket> findByTrainAndDepartDate (Train train, LocalDate date) {
         return repository.findByTrainAndDepartDate(train, date);
     }
